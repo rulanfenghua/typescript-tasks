@@ -7,8 +7,17 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "启动程序",
+      "name": "string",
       "program": "${workspaceFolder}/string.ts",
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "greeter",
+      "program": "${workspaceFolder}/mainTasks/greeter.ts",
       "outFiles": [
         "${workspaceFolder}/**/*.js"
       ]

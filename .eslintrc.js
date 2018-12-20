@@ -25,6 +25,10 @@ module.exports = {
       }
     ],
     'no-implicit-globals': 'off',
-    'no-unused-vars': 'off'
+    'no-unused-vars': 'off',
+    'semi': [
+      'error',
+      'never'
+    ]
   }
 }
