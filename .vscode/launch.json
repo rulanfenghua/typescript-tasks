@@ -7,6 +7,15 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "bags",
+      "program": "${workspaceFolder}/mainTasks/bags.ts",
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "string",
       "program": "${workspaceFolder}/string.ts",
       "outFiles": [
