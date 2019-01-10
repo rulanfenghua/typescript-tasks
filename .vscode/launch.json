@@ -7,6 +7,15 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "interface-static",
+      "program": "${workspaceFolder}/mainTasks/interface-static.ts",
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "bags",
       "program": "${workspaceFolder}/mainTasks/bags.ts",
       "outFiles": [
